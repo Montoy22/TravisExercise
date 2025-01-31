@@ -9,7 +9,7 @@ public class Demo {
     int selectedStrat = Integer.parseInt(argv[0]);
     float amt = Float.parseFloat(argv[1]);
 
-    switch(selectedStrat) {
+//    switch(selectedStrat) {
     case 1:
       strategy = new PercentDiscountStrategy(amt);
       break;
